@@ -1,0 +1,238 @@
+:root {
+  --brand-color: #2196f3;
+  --text-color: #757575;
+  --alternative-text-color: #ffffff;
+  --heading-color: #212121;
+  --primary-background: #2f303a;
+  --secondary-background: #f5f4fa;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+  color: #757575;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.button.primary {
+  color: var(--alternative-text-color);
+  background: var(--brand-color);
+}
+
+/* Header */
+
+.logo {
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  color: var(--heading-color);
+  text-decoration: none;
+}
+.logo-decoration {
+  color: var(--brand-color);
+}
+
+.main-nav .link {
+  font-weight: 500;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
+  color: var(--heading-color);
+  text-decoration: none;
+}
+
+.contacts .link {
+  font-weight: 500;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
+  color: var(--text-color);
+  text-decoration: none;
+}
+
+.main-nav .link:hover,
+.main-nav .link:focus,
+.contacts .link:hover,
+.contacts .link:focus {
+  color: var(--brand-color);
+}
+
+.link.active {
+  color: var(--brand-color);
+}
+
+/* Main */
+
+.list {
+  list-style: none;
+}
+
+.button {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--heading-color);
+}
+
+/* Hero section */
+
+.hero {
+  background-color: var(--primary-background);
+}
+
+.hero > .title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.4;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--alternative-text-color);
+}
+
+/* Advantage section */
+
+.advantage > .title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--heading-color);
+}
+
+.advantage-name {
+  font-size: 14px;
+  line-height: 1.1;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--heading-color);
+}
+
+.advantage .description {
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: var(--text-color);
+}
+
+/* Experience */
+
+/* Team */
+
+.team-list {
+  list-style: none;
+}
+
+.team-list .name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--heading-color);
+}
+
+.team-list .description {
+  font-size: 16px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+/* Footer */
+
+.footer-section {
+  background-color: var(--primary-background);
+}
+
+.footer-logo {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  color: var(--alternative-text-color);
+  text-decoration: none;
+}
+
+.footer-logo-decoration {
+  color: var(--brand-color);
+}
+
+.address {
+  font-style: normal;
+  letter-spacing: 0.03em;
+  color: var(--alternative-text-color);
+}
+
+.footer-contacts {
+  list-style: none;
+}
+
+.footer-contacts .link {
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+}
+
+.footer-contacts .link:hover,
+.footer-contacts .link:focus {
+  color: var(--brand-color);
+}
+
+/* -----Porfolio Page----- */
+
+.filter-button {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--heading-color);
+  background-color: var(--secondary-background);
+}
+
+.filter-button:hover,
+.filter-button:focus {
+  color: var(--alternative-text-color);
+  background: var(--brand-color);
+  cursor: pointer;
+}
+
+.filter-list,
+.gallery-list {
+  list-style: none;
+}
+
+.gallery-name {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--heading-color);
+}
+
+.gallery-description {
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.03em;
+  color: var(--text-color);
+}
