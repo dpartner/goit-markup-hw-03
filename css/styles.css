@@ -61,20 +61,22 @@ body {
 
 .main-nav {
   display: flex;
-  align-items: center;
+  align-items: baseline;
 }
 .header .container {
   display: flex;
   justify-content: space-between;
-  padding: 15px;
+  align-items: baseline;
 }
 
 .header .nav {
   display: flex;
+  align-items: baseline;
 }
 
 .header .contacts {
   display: flex;
+  align-items: baseline;
 }
 
 .main-nav .link {
@@ -83,7 +85,8 @@ body {
   letter-spacing: 0.02em;
   color: var(--heading-color);
   text-decoration: none;
-  padding: 17px 0 17px 0;
+  padding: 33px 0 33px 0;
+  display: block;
 }
 
 .main-nav .nav-item:not(:first-child) {
@@ -96,6 +99,8 @@ body {
   letter-spacing: 0.02em;
   color: var(--text-color);
   text-decoration: none;
+  padding: 32px 0 32px 0;
+  display: block;
 }
 
 .contacts .contacts-item:not(:first-child) {
@@ -190,8 +195,8 @@ h3 {
 
 /* -------------Hero section------------- */
 
-.hero .container {
-  padding: 106px 15px;
+.hero {
+  padding: 200px 15px;
 }
 
 .hero {
@@ -212,6 +217,10 @@ h3 {
 }
 
 /* -------------Advantage section------------- */
+
+.advantage.section {
+  padding-bottom: 0;
+}
 
 .advantage .list {
   display: flex;
@@ -265,7 +274,6 @@ h3 {
 
 .team-item {
   background: var(--body-background);
-  padding-bottom: 30px;
 }
 
 .team-list {
@@ -274,8 +282,8 @@ h3 {
   justify-content: space-between;
 }
 
-.team-image {
-  margin-bottom: 30px;
+.team-item-botoom {
+  padding: 30px 0 30px 0;
 }
 
 .team-list .name {
@@ -330,14 +338,13 @@ h3 {
 
 .footer-contacts {
   list-style: none;
-  width: 230px;
 }
 
 .footer-contacts .link {
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
-  display: block;
+  display: inline-block;
 }
 
 .footer-contacts .link:hover,
@@ -410,9 +417,6 @@ h3 {
 
 .gallery-item-bottom {
   padding-left: 24px;
-}
-
-.gallery-item-border {
   border-left: 1px solid #eeeeee;
   border-right: 1px solid #eeeeee;
   border-bottom: 1px solid #eeeeee;
@@ -424,7 +428,7 @@ h3 {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
-  letter-spacing: 0.06em;
+  letter-spacing: 0.03em;
   color: var(--heading-color);
 }
 
